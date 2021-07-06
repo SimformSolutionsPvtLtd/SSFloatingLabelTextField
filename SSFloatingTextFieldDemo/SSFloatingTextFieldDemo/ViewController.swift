@@ -1,12 +1,12 @@
 //
 //  ViewController.swift
-//  SSFloatingLabelTextField
+//  SSFloatingTextFieldDemo
 //
-//  Created by Mohammed Hanif on 21/06/21.
+//  Created by Mohammed Hanif on 07/07/21.
 //
 
 import UIKit
-import Combine
+import SSFloatingLabelTextField
 
 class ViewController: UIViewController {
     
