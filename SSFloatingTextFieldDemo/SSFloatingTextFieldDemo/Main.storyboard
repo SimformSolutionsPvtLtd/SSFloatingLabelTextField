@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SSFloatingTextFieldDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dli-en-fUO" customClass="SSFloatingLabelTextField" customModule="SSFloatingLabelTextField">
+                                <rect key="frame" x="20" y="119" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="errorTextColor">
+                                        <color key="value" systemColor="systemRedColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="errorText" value="Minimum one charcter required."/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="selectedLabelColor">
+                                        <color key="value" systemColor="systemGreenColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isPasswordToggleEnable" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="floatingLabelText" value="Username"/>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nbk-LG-Qi2">
+                                <rect key="frame" x="179.5" y="664.5" width="55" height="30"/>
+                                <state key="normal" title="Validate"/>
+                                <connections>
+                                    <action selector="btnValidate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yJB-CL-yLm"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2Qm-rR-x5P" customClass="SSFloatingLabelTextField" customModule="SSFloatingLabelTextField">
+                                <rect key="frame" x="20" y="233" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="errorTextColor">
+                                        <color key="value" systemColor="systemRedColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="errorText" value="Please enter a valid email"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="selectedLabelColor">
+                                        <color key="value" systemColor="systemGreenColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isPasswordToggleEnable" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="showPasswordImage" value="square.and.arrow.up.fill" catalog="system"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="hidePasswordImage" value="square.and.arrow.up.fill" catalog="system"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="floatingLabelText" value="Email"/>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password*" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tMb-WA-a8M" customClass="SSFloatingLabelTextField" customModule="SSFloatingLabelTextField">
+                                <rect key="frame" x="20" y="347" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="errorTextColor">
+                                        <color key="value" systemColor="systemRedColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="errorText">
+                                        <string key="value">Password must be 8 characters long and contain atleat 1 lowercase character 1 uppercase character 1 dight and 1 special character</string>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="selectedLabelColor">
+                                        <color key="value" systemColor="systemGreenColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isPasswordToggleEnable" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="floatingLabelText" value="Password"/>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Phone Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Zog-IS-JVN" customClass="SSFloatingLabelTextField" customModule="SSFloatingLabelTextField">
+                                <rect key="frame" x="20" y="481" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="errorTextColor">
+                                        <color key="value" systemColor="systemRedColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="errorText" value="Please enter 10 digits"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="selectedLabelColor">
+                                        <color key="value" systemColor="systemGreenColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isPasswordToggleEnable" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="floatingLabelText" value="Phone Number"/>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2Qm-rR-x5P" firstAttribute="leading" secondItem="dli-en-fUO" secondAttribute="leading" id="5Av-2h-3Va"/>
+                            <constraint firstItem="2Qm-rR-x5P" firstAttribute="top" secondItem="dli-en-fUO" secondAttribute="bottom" constant="80" id="BfJ-gH-GqP"/>
+                            <constraint firstItem="Zog-IS-JVN" firstAttribute="leading" secondItem="tMb-WA-a8M" secondAttribute="leading" id="NNh-14-NQE"/>
+                            <constraint firstItem="Zog-IS-JVN" firstAttribute="top" secondItem="tMb-WA-a8M" secondAttribute="bottom" constant="100" id="RqB-3G-mP7"/>
+                            <constraint firstItem="nbk-LG-Qi2" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Tbm-Zk-0Jm"/>
+                            <constraint firstItem="Zog-IS-JVN" firstAttribute="trailing" secondItem="tMb-WA-a8M" secondAttribute="trailing" id="WaR-la-lOJ"/>
+                            <constraint firstItem="tMb-WA-a8M" firstAttribute="leading" secondItem="2Qm-rR-x5P" secondAttribute="leading" id="XIc-L3-Hk2"/>
+                            <constraint firstItem="2Qm-rR-x5P" firstAttribute="trailing" secondItem="dli-en-fUO" secondAttribute="trailing" id="YZv-c2-Gqc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dli-en-fUO" secondAttribute="trailing" constant="20" id="Z7f-PR-Klk"/>
+                            <constraint firstItem="dli-en-fUO" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="0.3" id="Zfk-Xv-nJO"/>
+                            <constraint firstItem="tMb-WA-a8M" firstAttribute="trailing" secondItem="2Qm-rR-x5P" secondAttribute="trailing" id="eN5-1F-Cy0"/>
+                            <constraint firstItem="dli-en-fUO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="leC-z3-0g8"/>
+                            <constraint firstItem="nbk-LG-Qi2" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="1.5" id="nuI-8q-Xma"/>
+                            <constraint firstItem="tMb-WA-a8M" firstAttribute="top" secondItem="2Qm-rR-x5P" secondAttribute="bottom" constant="80" id="szi-e4-fgc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="txtEmail" destination="2Qm-rR-x5P" id="WMP-ae-O1v"/>
+                        <outlet property="txtPassword" destination="tMb-WA-a8M" id="2Fv-Km-7fV"/>
+                        <outlet property="txtPhoneNumber" destination="Zog-IS-JVN" id="Dli-Hb-9kX"/>
+                        <outlet property="txtUsername" destination="dli-en-fUO" id="LMM-jf-iqY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-335" y="59"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="square.and.arrow.up.fill" catalog="system" width="115" height="128"/>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
