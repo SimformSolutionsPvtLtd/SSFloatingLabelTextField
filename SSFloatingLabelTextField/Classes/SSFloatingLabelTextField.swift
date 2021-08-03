@@ -9,17 +9,17 @@ import Foundation
 import UIKit
 import Combine
 
-class SSFloatingLabelTextField: UITextField {
+open class SSFloatingLabelTextField: UITextField {
     
     // MARK:- Variables
     /// placeholder label
     var placeholderLabel: UILabel = UILabel(frame: CGRect.zero)
     /// Error Label
-    open var errorLabel: UILabel = UILabel(frame: CGRect.zero)
+    var errorLabel: UILabel = UILabel(frame: CGRect.zero)
     // Default height
     var placeholderLabelHeight: CGFloat = 14
     // Set any predefine validation type
-    var type: Type? {
+    open var type: Type? {
         didSet {
             switch type {
             case .email:
@@ -36,11 +36,11 @@ class SSFloatingLabelTextField: UITextField {
     
     // Defines Placeholder label text
     @IBInspectable
-    var floatingLabelText: String?
+    open var floatingLabelText: String?
     
     // Defines error text which will be displayed when text is not valid
     @IBInspectable
-    var errorText: String? {
+    open var errorText: String? {
         didSet {
             errorLabel.text = errorText
             setNeedsDisplay()
@@ -49,7 +49,7 @@ class SSFloatingLabelTextField: UITextField {
     
     // Color of error text
     @IBInspectable
-    var errorTextColor: UIColor = UIColor.black {
+    open var errorTextColor: UIColor = UIColor.black {
         didSet {
             errorLabel.textColor = errorTextColor
             setNeedsDisplay()
@@ -58,11 +58,11 @@ class SSFloatingLabelTextField: UITextField {
     
     // Color for floating label By defaul :- Blue
     @IBInspectable
-    var selectedLabelColor: UIColor = UIColor.blue
+    open var selectedLabelColor: UIColor = UIColor.blue
     
     // Color for floating label By defaul :- Grey
     @IBInspectable
-    var unSelectedLabelColor: UIColor = UIColor.gray
+    open var unSelectedLabelColor: UIColor = UIColor.gray
     
     // Set Custom regex for Text Validation
     @IBInspectable
@@ -71,9 +71,9 @@ class SSFloatingLabelTextField: UITextField {
     @available(iOS 13.0, *)
     private(set) lazy var cancellables = [AnyCancellable]()
     
-    // Set if you want to show hide password with icon 
+    // Set if you want to show hide password with icon
     @IBInspectable
-    var isPasswordToggleEnable: Bool = false {
+    open var isPasswordToggleEnable: Bool = false {
         didSet {
             if isPasswordToggleEnable {
                 enablePasswordToggle()
@@ -83,7 +83,7 @@ class SSFloatingLabelTextField: UITextField {
     
     // Toggle image when password is shown (Only required if password toggle is enable)
     @IBInspectable
-    var showPasswordImage: UIImage? = UIImage(named: "eyeOpen") {
+    open var showPasswordImage: UIImage? = UIImage(named: "eyeOpen") {
         didSet {
             setPasswordToggleImage(button)
         }
@@ -91,13 +91,13 @@ class SSFloatingLabelTextField: UITextField {
     
     // Toggle image when password is hidden (Only required if password toggle is enable)
     @IBInspectable
-    var hidePasswordImage: UIImage? = UIImage(named: "eyeClose") {
+    open var hidePasswordImage: UIImage? = UIImage(named: "eyeClose") {
         didSet {
             setPasswordToggleImage(button)
         }
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         baseSetup()
     }
@@ -275,7 +275,7 @@ class SSFloatingLabelTextField: UITextField {
     /// Check if current text field is valid or not
     /// - Parameter validationType: Validation typr if used predefine
     /// - Returns: return is textfield is valid or not
-    func isValid() -> Bool {
+    open func isValid() -> Bool {
         guard let validation = type else {
             return !(text?.isEmpty ?? false)
         }

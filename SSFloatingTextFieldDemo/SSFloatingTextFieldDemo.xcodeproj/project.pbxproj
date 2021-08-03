@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D3AD8DC7FC99C2D46126ABE /* Pods_SSFloatingTextFieldDemo_SSFloatingTextFieldDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1984C96290992840F8619572 /* Pods_SSFloatingTextFieldDemo_SSFloatingTextFieldDemoUITests.framework */; };
-		299197DB377200E041C80535 /* Pods_SSFloatingTextFieldDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889A2B64ACBE87C4F06AFDFB /* Pods_SSFloatingTextFieldDemoTests.framework */; };
 		AB6E00F4B3E192E39026CF21 /* Pods_SSFloatingTextFieldDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF543A35AC70E2F1AAB1FB2 /* Pods_SSFloatingTextFieldDemo.framework */; };
 		E370DC5D26958E550096A34C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E370DC5C26958E550096A34C /* AppDelegate.swift */; };
 		E370DC6126958E550096A34C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E370DC6026958E550096A34C /* ViewController.swift */; };
@@ -35,14 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1984C96290992840F8619572 /* Pods_SSFloatingTextFieldDemo_SSFloatingTextFieldDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSFloatingTextFieldDemo_SSFloatingTextFieldDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BF543A35AC70E2F1AAB1FB2 /* Pods_SSFloatingTextFieldDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSFloatingTextFieldDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5623230F83FEA69BF054BDF5 /* Pods-SSFloatingTextFieldDemo-SSFloatingTextFieldDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSFloatingTextFieldDemo-SSFloatingTextFieldDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-SSFloatingTextFieldDemo-SSFloatingTextFieldDemoUITests/Pods-SSFloatingTextFieldDemo-SSFloatingTextFieldDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		59836A7CB2D223FA8A9D6D80 /* Pods-SSFloatingTextFieldDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSFloatingTextFieldDemoTests.release.xcconfig"; path = "Target Support Files/Pods-SSFloatingTextFieldDemoTests/Pods-SSFloatingTextFieldDemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		66F075EEE26A881D211A56B2 /* Pods-SSFloatingTextFieldDemo-SSFloatingTextFieldDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSFloatingTextFieldDemo-SSFloatingTextFieldDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-SSFloatingTextFieldDemo-SSFloatingTextFieldDemoUITests/Pods-SSFloatingTextFieldDemo-SSFloatingTextFieldDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
-		889A2B64ACBE87C4F06AFDFB /* Pods_SSFloatingTextFieldDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSFloatingTextFieldDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CBAF9393FE2B5F1C50BB5FE /* Pods-SSFloatingTextFieldDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSFloatingTextFieldDemo.debug.xcconfig"; path = "Target Support Files/Pods-SSFloatingTextFieldDemo/Pods-SSFloatingTextFieldDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		95C73A473A9CD60E978FD649 /* Pods-SSFloatingTextFieldDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSFloatingTextFieldDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-SSFloatingTextFieldDemoTests/Pods-SSFloatingTextFieldDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E370DC5926958E550096A34C /* SSFloatingTextFieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSFloatingTextFieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E370DC5C26958E550096A34C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E370DC6026958E550096A34C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,7 +60,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				299197DB377200E041C80535 /* Pods_SSFloatingTextFieldDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +67,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D3AD8DC7FC99C2D46126ABE /* Pods_SSFloatingTextFieldDemo_SSFloatingTextFieldDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,8 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				1BF543A35AC70E2F1AAB1FB2 /* Pods_SSFloatingTextFieldDemo.framework */,
-				1984C96290992840F8619572 /* Pods_SSFloatingTextFieldDemo_SSFloatingTextFieldDemoUITests.framework */,
-				889A2B64ACBE87C4F06AFDFB /* Pods_SSFloatingTextFieldDemoTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -131,10 +119,6 @@
 			children = (
 				8CBAF9393FE2B5F1C50BB5FE /* Pods-SSFloatingTextFieldDemo.debug.xcconfig */,
 				F1B853C161B9FD0E8A891FC4 /* Pods-SSFloatingTextFieldDemo.release.xcconfig */,
-				5623230F83FEA69BF054BDF5 /* Pods-SSFloatingTextFieldDemo-SSFloatingTextFieldDemoUITests.debug.xcconfig */,
-				66F075EEE26A881D211A56B2 /* Pods-SSFloatingTextFieldDemo-SSFloatingTextFieldDemoUITests.release.xcconfig */,
-				95C73A473A9CD60E978FD649 /* Pods-SSFloatingTextFieldDemoTests.debug.xcconfig */,
-				59836A7CB2D223FA8A9D6D80 /* Pods-SSFloatingTextFieldDemoTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -165,7 +149,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E370DC8626958E570096A34C /* Build configuration list for PBXNativeTarget "SSFloatingTextFieldDemoTests" */;
 			buildPhases = (
-				CFA70BDBAAE7FAFAD9DA07D7 /* [CP] Check Pods Manifest.lock */,
 				E370DC6B26958E570096A34C /* Sources */,
 				E370DC6C26958E570096A34C /* Frameworks */,
 				E370DC6D26958E570096A34C /* Resources */,
@@ -184,11 +167,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E370DC8926958E570096A34C /* Build configuration list for PBXNativeTarget "SSFloatingTextFieldDemoUITests" */;
 			buildPhases = (
-				2DF4F81AD332C6A7E7B4DDE4 /* [CP] Check Pods Manifest.lock */,
 				E370DC7626958E570096A34C /* Sources */,
 				E370DC7726958E570096A34C /* Frameworks */,
 				E370DC7826958E570096A34C /* Resources */,
-				5A48A8F17B1D69C9D85323C0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -270,45 +251,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2DF4F81AD332C6A7E7B4DDE4 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SSFloatingTextFieldDemo-SSFloatingTextFieldDemoUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5A48A8F17B1D69C9D85323C0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SSFloatingTextFieldDemo-SSFloatingTextFieldDemoUITests/Pods-SSFloatingTextFieldDemo-SSFloatingTextFieldDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SSFloatingTextFieldDemo-SSFloatingTextFieldDemoUITests/Pods-SSFloatingTextFieldDemo-SSFloatingTextFieldDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SSFloatingTextFieldDemo-SSFloatingTextFieldDemoUITests/Pods-SSFloatingTextFieldDemo-SSFloatingTextFieldDemoUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		95493138E6514B71565C88E4 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -342,28 +284,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-SSFloatingTextFieldDemo-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CFA70BDBAAE7FAFAD9DA07D7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SSFloatingTextFieldDemoTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -568,7 +488,6 @@
 		};
 		E370DC8726958E570096A34C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95C73A473A9CD60E978FD649 /* Pods-SSFloatingTextFieldDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -590,7 +509,6 @@
 		};
 		E370DC8826958E570096A34C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59836A7CB2D223FA8A9D6D80 /* Pods-SSFloatingTextFieldDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -612,7 +530,6 @@
 		};
 		E370DC8A26958E570096A34C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5623230F83FEA69BF054BDF5 /* Pods-SSFloatingTextFieldDemo-SSFloatingTextFieldDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -632,7 +549,6 @@
 		};
 		E370DC8B26958E570096A34C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66F075EEE26A881D211A56B2 /* Pods-SSFloatingTextFieldDemo-SSFloatingTextFieldDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
