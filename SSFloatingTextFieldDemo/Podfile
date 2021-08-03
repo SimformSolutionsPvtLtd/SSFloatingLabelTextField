@@ -5,7 +5,7 @@ target 'SSFloatingTextFieldDemo' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-pod 'SSFloatingLabelTextField', :git => "https://github.com/mobile-simformsolutions/SSFloatingLabelTextField", :branch => "feature/createpod"
+pod 'SSFloatingLabelTextField'
 
 # Pods for SSFloatingTextFieldDemo
 

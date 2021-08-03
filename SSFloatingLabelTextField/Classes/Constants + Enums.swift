@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Constants {
+public class Constants {
     static let emailRegex = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
     //    Minimum eight characters, at least one letter, one number and one special character:
     static let weakPasswordRegex = "^(?=.*[A-Za-z])(?=.*\\d)(?=.*[@$!%*#?&])[A-Za-z\\d@$!%*#?&]{8,}$"
@@ -19,13 +19,13 @@ class Constants {
     static var phoneNumberMask = "XXX-XXX-XXXX"
 }
 
-enum Type {
+public enum Type {
     case email
     case password(passwordRule: PasswordRule)
     case phoneNumber(formatterString: String?)
 }
 
-enum PasswordRule {
+public enum PasswordRule {
     case weak
     case medium
     case strong
