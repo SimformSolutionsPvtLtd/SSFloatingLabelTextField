@@ -1,4 +1,4 @@
-<a href="https://www.simform.com/"><img src="https://github.com/mobile-simformsolutions/SSFloatingLabelTextField/blob/feature/add_license/screenshots/simformBanner.png"></a>
+<a href="https://www.simform.com/"><img src="https://github.com/mobile-simformsolutions/SSFloatingLabelTextField/blob/main/screenshots/simformBanner.png"></a>
 
 [![Platform][platform-image]][platform-url]
 [![Swift Version][swift-image]][swift-url]
@@ -9,7 +9,7 @@
 
 SSFloatingLabelTextField is a smal library for iOS whic supports Floating labels and errors for different kind of validations.
 
-![Alt text](https://github.com/mobile-simformsolutions/SSFloatingLabelTextField/blob/feature/add_license/screenshots/SSFloatingTextField.gif?raw=true)
+![Alt text](https://github.com/mobile-simformsolutions/SSFloatingLabelTextField/blob/main/screenshots/SSFloatingTextField.gif?raw=true)
 
 # Features!
 
@@ -57,7 +57,7 @@ All Attributes :-
 
 In the storyboard add a UITextField and change its class to SSFloatingLabelTextField
 
-<img src="https://github.com/mobile-simformsolutions/SSFloatingLabelTextField/blob/feature/add_license/screenshots/Installation.png">
+<img src="https://github.com/mobile-simformsolutions/SSFloatingLabelTextField/blob/main/screenshots/Installation.png">
 
 Import SSFloatingLabelTextField
         
