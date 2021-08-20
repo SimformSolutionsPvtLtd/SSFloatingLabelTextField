@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "SSFloatingLabelTextField"
-  spec.version      = "0.0.2"
+  spec.version      = "1.0.0"
   spec.summary      = "A small framework to use Floating label and show errors of SSFloatingLabelTextField."
   spec.description  =    "A small framework to use Floating label and show errors of SSFloatingLabelTextField."
             
