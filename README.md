@@ -7,7 +7,7 @@
 
 # SSFloatingLabelTextField
 
-SSFloatingLabelTextField is a smal library for iOS whic supports Floating labels and errors for different kind of validations.
+SSFloatingLabelTextField is a small library for iOS which supports Floating labels and errors with different kind of validations. Also user can add/customise own validation and error messages. 
 
 ![Alt text](https://github.com/mobile-simformsolutions/SSFloatingLabelTextField/blob/main/screenshots/SSFloatingTextField.gif?raw=true)
 
@@ -16,6 +16,7 @@ SSFloatingLabelTextField is a smal library for iOS whic supports Floating labels
 Main Features include :- 
 - Floating Placeholder label 
 - Set different validations type 
+- Set Custom regex for validation or for phone number formatter
 - Check if text is valid or not and display error message
 
 All Attributes :- 
