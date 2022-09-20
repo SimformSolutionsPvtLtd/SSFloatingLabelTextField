@@ -1,0 +1,16 @@
+PODS:
+  - SSFloatingLabelTextField (1.0.0)
+
+DEPENDENCIES:
+  - SSFloatingLabelTextField
+
+SPEC REPOS:
+  trunk:
+    - SSFloatingLabelTextField
+
+SPEC CHECKSUMS:
+  SSFloatingLabelTextField: aadd442ca3b5f5d6f6e88a9016a7770874cc6e66
+
+PODFILE CHECKSUM: c77e5075ca976a47895b30c1e6773561a9b6e738
+
+COCOAPODS: 1.11.3
