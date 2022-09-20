@@ -223,7 +223,7 @@ open class SSFloatingLabelTextField: UITextField {
     
     /// Add label if not already added
     func addFloatingLabel() {
-        if  text != "" {
+        if text != "" {
             if (self.subviews.contains(placeholderLabel)) {
                 return
             }
