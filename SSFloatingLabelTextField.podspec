@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/mobile-simformsolutions/SSFloatingLabelTextField", :tag => "#{spec.version}" }
 
-  spec.source_files  = "SSFloatingLabelTextField/Classes/**"
+  spec.source_files  = "Sources/SSFloatingLabelTextField/Classes/**"
   spec.framework  = 'UIKit'
 
 end
